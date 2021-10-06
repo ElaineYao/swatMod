@@ -10,7 +10,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How do I get set up? ###
 
-* Summary of set up
+* Note that this version of the SWAT emulator is only compatible with cpppo 4.3.0 and lesser. Install cpppo with 'sudo pip install cpppo==4.3.0'
 * Configuration
 * Dependencies
 * Database configuration
