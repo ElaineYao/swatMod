@@ -1,0 +1,28 @@
+2021-10-08 00:42:50,810 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+
+2021-10-08 00:42:51,060 - mininet - DEBUG - localuser:root being added to access control list
+  0
+2021-10-08 00:42:51,062 - mininet - DEBUG - _popen ['mnexec', '-da', '6918', 'xterm', '-title', '"Node: plc2"', '-display', ':0', '-e', 'env TERM=ansi bash'] 7022
+2021-10-08 00:43:00,146 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+
+2021-10-08 00:43:00,154 - mininet - DEBUG - localuser:root being added to access control list
+  0
+2021-10-08 00:43:00,158 - mininet - DEBUG - _popen ['mnexec', '-da', '6920', 'xterm', '-title', '"Node: plc3"', '-display', ':0', '-e', 'env TERM=ansi bash'] 7041
+2021-10-08 00:43:06,410 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+
+2021-10-08 00:43:06,417 - mininet - DEBUG - localuser:root being added to access control list
+  0
+2021-10-08 00:43:06,421 - mininet - DEBUG - _popen ['mnexec', '-da', '6916', 'xterm', '-title', '"Node: plc1"', '-display', ':0', '-e', 'env TERM=ansi bash'] 7053
+2021-10-08 00:43:11,237 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+
+2021-10-08 00:43:11,245 - mininet - DEBUG - localuser:root being added to access control list
+  0
+2021-10-08 00:43:11,248 - mininet - DEBUG - _popen ['mnexec', '-da', '6925', 'xterm', '-title', '"Node: s1" (root)', '-display', ':0', '-e', 'env TERM=ansi bash'] 7065
+2021-10-08 00:43:16,561 - mininet - DEBUG - *** errRun: ['stty', '-icanon', 'min', '1'] 
+
+2021-10-08 00:43:16,566 - mininet - DEBUG -   0
+2021-10-08 00:43:22,192 - mininet - Level 25 - QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+
+2021-10-08 00:49:20,250 - mininet - Level 25 - 
+2021-10-08 01:45:37,405 - mininet - Level 25 - 
+
