@@ -1,0 +1,449 @@
+2021-10-06 04:59:13,658 - mininet - DEBUG - /usr/local/bin/controller
+  0
+2021-10-06 04:59:13,659 - mininet - DEBUG - *** c0 : ('controller ptcp:6653 1>/tmp/c0.log 2>/tmp/c0.log &',)
+
+2021-10-06 04:59:13,661 - mininet - DEBUG - 
+2021-10-06 04:59:13,662 - mininet - INFO - 
+
+2021-10-06 04:59:13,662 - mininet - INFO - *** Starting 1 switches
+
+2021-10-06 04:59:13,662 - mininet - INFO - s1 
+2021-10-06 04:59:13,663 - mininet - INFO - ...
+2021-10-06 04:59:13,663 - mininet - DEBUG - *** errRun: ovs-vsctl -- --id=@s1c0 create Controller target=\"tcp:127.0.0.1:6653\" max_backoff=1000 -- --if-exists del-br s1 -- add-br s1 -- set bridge s1 controller=[@s1c0] other_config:datapath-id=0000000000000001 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s1 -- add-port s1 s1-eth1 -- set Interface s1-eth1 ofport_request=1 -- add-port s1 s1-eth2 -- set Interface s1-eth2 ofport_request=2 
+
+2021-10-06 04:59:13,709 - mininet - DEBUG - 4b42b4f0-fff2-4ec4-9bb6-b8118e1b6239
+  0
+2021-10-06 04:59:13,710 - mininet - INFO - 
+
+2021-10-06 04:59:13,710 - mininet - INFO - *** Starting CLI:
+
+2021-10-06 04:59:13,712 - mininet - DEBUG - *** errRun: ['stty', 'echo', 'sane', 'intr', '^C'] 
+
+2021-10-06 04:59:13,717 - mininet - DEBUG -   0
+2021-10-06 04:59:21,154 - mininet - DEBUG - *** errRun: ['stty', '-icanon', 'min', '1'] 
+
+2021-10-06 04:59:21,160 - mininet - DEBUG -   0
+2021-10-06 04:59:22,320 - mininet - Level 25 - QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+
+2021-10-06 05:21:52,148 - mininet - DEBUG - sendInt: writing chr(3)
+
+2021-10-06 05:21:52,350 - mininet - Level 25 - 
+
+2021-10-06 05:21:52,350 - mininet - Level 25 - 
+2021-10-06 05:28:56,272 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+
+2021-10-06 05:28:56,480 - mininet - DEBUG - localuser:root being added to access control list
+  0
+2021-10-06 05:28:56,575 - mininet - DEBUG - _popen ['mnexec', '-da', '10509', 'xterm', '-title', '"Node: plc1"', '-display', ':0', '-e', 'env TERM=ansi bash'] 12225
+2021-10-06 05:29:06,092 - mininet - Level 25 - 
+
+2021-10-06 05:29:06,093 - mininet - INFO - *** Stopping 1 controllers
+
+2021-10-06 05:29:06,094 - mininet - INFO - c0 
+2021-10-06 05:29:06,094 - mininet - DEBUG - *** c0 : ('kill %controller',)
+
+2021-10-06 05:29:06,095 - mininet - DEBUG - 
+2021-10-06 05:29:06,096 - mininet - DEBUG - *** c0 : ('wait %controller',)
+
+2021-10-06 05:29:06,097 - mininet - DEBUG - 
+2021-10-06 05:29:06,172 - mininet - INFO - 
+
+2021-10-06 05:29:06,173 - mininet - INFO - *** Stopping 1 terms
+
+2021-10-06 05:29:06,173 - mininet - DEBUG - *** errRun: ['pkill', '-9', '-f', 'mnexec.*socat'] 
+
+2021-10-06 05:29:06,208 - mininet - DEBUG -   1
+2021-10-06 05:29:06,209 - mininet - INFO - *** Stopping 2 links
+
+2021-10-06 05:29:06,210 - mininet - INFO - .
+2021-10-06 05:29:06,211 - mininet - DEBUG - *** plc1 : ('ip link del plc1-eth0',)
+
+2021-10-06 05:29:06,445 - mininet - DEBUG - 
+2021-10-06 05:29:06,445 - mininet - DEBUG - *** s1 : ('ip link del s1-eth1',)
+
+2021-10-06 05:29:08,547 - mininet - DEBUG - Cannot find device "s1-eth1"
+
+2021-10-06 05:29:08,547 - mininet - DEBUG - 
+2021-10-06 05:29:08,547 - mininet - INFO - .
+2021-10-06 05:29:08,547 - mininet - DEBUG - *** plc2 : ('ip link del plc2-eth0',)
+
+2021-10-06 05:29:08,580 - mininet - DEBUG - 
+2021-10-06 05:29:08,581 - mininet - DEBUG - *** s1 : ('ip link del s1-eth2',)
+
+2021-10-06 05:29:08,587 - mininet - DEBUG - Cannot find device "s1-eth2"
+
+2021-10-06 05:29:08,588 - mininet - DEBUG - 
+2021-10-06 05:29:08,588 - mininet - INFO - 
+
+2021-10-06 05:29:08,589 - mininet - INFO - *** Stopping 1 switches
+
+2021-10-06 05:29:08,589 - mininet - DEBUG - *** errRun: ['ovs-vsctl', '--if-exists', 'del-br', 's1'] 
+
+2021-10-06 05:29:08,890 - mininet - DEBUG -   0
+2021-10-06 05:29:08,890 - mininet - DEBUG - *** errRun: ['kill', '-HUP', '10516'] 
+
+2021-10-06 05:29:08,950 - mininet - DEBUG -   0
+2021-10-06 05:29:08,951 - mininet - INFO - s1 
+2021-10-06 05:29:08,951 - mininet - INFO - 
+
+2021-10-06 05:29:08,951 - mininet - INFO - *** Stopping 2 hosts
+
+2021-10-06 05:29:08,951 - mininet - INFO - plc1 
+2021-10-06 05:29:08,952 - mininet - INFO - plc2 
+2021-10-06 05:29:08,952 - mininet - INFO - 
+*** Done
+
+2021-10-06 05:30:15,844 - mininet - DEBUG - *** errRun: ['grep', '-c', 'processor', '/proc/cpuinfo'] 
+
+2021-10-06 05:30:15,869 - mininet - DEBUG - 4
+  0
+2021-10-06 05:30:15,870 - mininet - DEBUG - *** Setting resource limits
+
+2021-10-06 05:30:15,872 - mininet - INFO - *** Creating network
+
+2021-10-06 05:30:15,873 - mininet - INFO - *** Adding controller
+
+2021-10-06 05:30:15,873 - mininet - DEBUG - *** errRun: ['which', 'controller'] 
+
+2021-10-06 05:30:15,906 - mininet - DEBUG - /usr/local/bin/controller
+  0
+2021-10-06 05:30:15,907 - mininet - DEBUG - *** errRun: ['which', 'mnexec'] 
+
+2021-10-06 05:30:15,910 - mininet - DEBUG - /usr/bin/mnexec
+  0
+2021-10-06 05:30:15,910 - mininet - DEBUG - *** errRun: ['which', 'ifconfig'] 
+
+2021-10-06 05:30:15,914 - mininet - DEBUG - /sbin/ifconfig
+  0
+2021-10-06 05:30:15,917 - mininet - DEBUG - _popen ['mnexec', '-cd', 'env', 'PS1=\x7f', 'bash', '--norc', '--noediting', '-is', 'mininet:c0'] 12362
+2021-10-06 05:30:15,934 - mininet - DEBUG - *** c0 : ('unset HISTFILE; stty -echo; set +m',)
+
+2021-10-06 05:30:15,935 - mininet - DEBUG - unset HISTFILE; stty -echo; set +m
+
+2021-10-06 05:30:15,980 - mininet - DEBUG - 
+2021-10-06 05:30:15,980 - mininet - DEBUG - *** errRun: ['which', 'telnet'] 
+
+2021-10-06 05:30:15,983 - mininet - DEBUG - /usr/bin/telnet
+  0
+2021-10-06 05:30:15,983 - mininet - DEBUG - *** c0 : ('echo A | telnet -e A 127.0.0.1 6653',)
+
+2021-10-06 05:30:16,029 - mininet - DEBUG - Telnet escape character is 'A'.
+Trying 127.0.0.1...
+
+2021-10-06 05:30:16,029 - mininet - DEBUG - telnet: Unable to connect to remote host: Connection refused
+
+2021-10-06 05:30:16,029 - mininet - INFO - *** Adding hosts:
+
+2021-10-06 05:30:16,030 - mininet - DEBUG - *** errRun: ['which', 'mnexec'] 
+
+2021-10-06 05:30:16,033 - mininet - DEBUG - /usr/bin/mnexec
+  0
+2021-10-06 05:30:16,033 - mininet - DEBUG - *** errRun: ['which', 'ifconfig'] 
+
+2021-10-06 05:30:16,036 - mininet - DEBUG - /sbin/ifconfig
+  0
+2021-10-06 05:30:16,038 - mininet - DEBUG - _popen ['mnexec', '-cdn', 'env', 'PS1=\x7f', 'bash', '--norc', '--noediting', '-is', 'mininet:plc1'] 12369
+2021-10-06 05:30:16,057 - mininet - DEBUG - *** plc1 : ('unset HISTFILE; stty -echo; set +m',)
+
+2021-10-06 05:30:16,057 - mininet - DEBUG - unset HISTFILE; stty -echo; set +m
+
+2021-10-06 05:30:16,058 - mininet - DEBUG - 
+2021-10-06 05:30:16,059 - mininet - INFO - plc1 
+2021-10-06 05:30:16,061 - mininet - DEBUG - _popen ['mnexec', '-cdn', 'env', 'PS1=\x7f', 'bash', '--norc', '--noediting', '-is', 'mininet:plc2'] 12371
+2021-10-06 05:30:16,082 - mininet - DEBUG - *** plc2 : ('unset HISTFILE; stty -echo; set +m',)
+
+2021-10-06 05:30:16,083 - mininet - DEBUG - unset HISTFILE; stty -echo; set +m
+
+2021-10-06 05:30:16,084 - mininet - DEBUG - 
+2021-10-06 05:30:16,084 - mininet - INFO - plc2 
+2021-10-06 05:30:16,084 - mininet - INFO - 
+*** Adding switches:
+
+2021-10-06 05:30:16,085 - mininet - DEBUG - *** errRun: ['which', 'ovs-vsctl'] 
+
+2021-10-06 05:30:16,088 - mininet - DEBUG - /usr/bin/ovs-vsctl
+  0
+2021-10-06 05:30:16,089 - mininet - DEBUG - *** errRun: ['ovs-vsctl', '-t', '1', 'show'] 
+
+2021-10-06 05:30:16,100 - mininet - DEBUG - 47397c03-8cc1-4623-9250-65507ff969fa
+    ovs_version: "2.9.8"
+  0
+2021-10-06 05:30:16,101 - mininet - DEBUG - *** errRun: ['ovs-vsctl', '--version'] 
+
+2021-10-06 05:30:16,105 - mininet - DEBUG - ovs-vsctl (Open vSwitch) 2.9.8
+DB Schema 7.15.1
+  0
+2021-10-06 05:30:16,109 - mininet - DEBUG - _popen ['mnexec', '-cd', 'env', 'PS1=\x7f', 'bash', '--norc', '--noediting', '-is', 'mininet:s1'] 12376
+2021-10-06 05:30:16,131 - mininet - DEBUG - *** s1 : ('unset HISTFILE; stty -echo; set +m',)
+
+2021-10-06 05:30:16,132 - mininet - DEBUG - unset HISTFILE; stty -echo; set +m
+
+2021-10-06 05:30:16,133 - mininet - DEBUG - 
+2021-10-06 05:30:16,134 - mininet - DEBUG - 
+
+2021-10-06 05:30:16,134 - mininet - DEBUG - added intf lo (0) to node s1
+
+2021-10-06 05:30:16,135 - mininet - DEBUG - *** s1 : ('ifconfig', 'lo', 'up')
+
+2021-10-06 05:30:16,171 - mininet - DEBUG - 
+2021-10-06 05:30:16,171 - mininet - INFO - s1 
+2021-10-06 05:30:16,172 - mininet - INFO - 
+*** Adding links:
+
+2021-10-06 05:30:16,172 - mininet - DEBUG - *** plc1 : ('ip link add name plc1-eth0 address 8e:31:be:e8:ec:5b type veth peer name s1-eth1 address 82:9d:e2:66:9e:82 netns 12376',)
+
+2021-10-06 05:30:16,176 - mininet - DEBUG - 
+2021-10-06 05:30:16,177 - mininet - DEBUG - 
+
+2021-10-06 05:30:16,177 - mininet - DEBUG - added intf plc1-eth0 (0) to node plc1
+
+2021-10-06 05:30:16,177 - mininet - DEBUG - moving plc1-eth0 into namespace for plc1 
+
+2021-10-06 05:30:16,178 - mininet - DEBUG - *** plc1 : ('ifconfig', 'plc1-eth0', 'up')
+
+2021-10-06 05:30:16,184 - mininet - DEBUG - 
+2021-10-06 05:30:16,186 - mininet - DEBUG - 
+
+2021-10-06 05:30:16,186 - mininet - DEBUG - added intf s1-eth1 (1) to node s1
+
+2021-10-06 05:30:16,187 - mininet - DEBUG - *** s1 : ('ifconfig', 's1-eth1', 'up')
+
+2021-10-06 05:30:16,194 - mininet - DEBUG - 
+2021-10-06 05:30:16,194 - mininet - INFO - (plc1, s1) 
+2021-10-06 05:30:16,195 - mininet - DEBUG - *** plc2 : ('ip link add name plc2-eth0 address c2:42:ff:e6:f1:02 type veth peer name s1-eth2 address 62:68:fe:1b:7e:fd netns 12376',)
+
+2021-10-06 05:30:16,199 - mininet - DEBUG - 
+2021-10-06 05:30:16,200 - mininet - DEBUG - 
+
+2021-10-06 05:30:16,200 - mininet - DEBUG - added intf plc2-eth0 (0) to node plc2
+
+2021-10-06 05:30:16,200 - mininet - DEBUG - moving plc2-eth0 into namespace for plc2 
+
+2021-10-06 05:30:16,201 - mininet - DEBUG - *** plc2 : ('ifconfig', 'plc2-eth0', 'up')
+
+2021-10-06 05:30:16,204 - mininet - DEBUG - 
+2021-10-06 05:30:16,207 - mininet - DEBUG - 
+
+2021-10-06 05:30:16,207 - mininet - DEBUG - added intf s1-eth2 (2) to node s1
+
+2021-10-06 05:30:16,208 - mininet - DEBUG - *** s1 : ('ifconfig', 's1-eth2', 'up')
+
+2021-10-06 05:30:16,216 - mininet - DEBUG - 
+2021-10-06 05:30:16,270 - mininet - INFO - (plc2, s1) 
+2021-10-06 05:30:16,270 - mininet - INFO - 
+
+2021-10-06 05:30:16,270 - mininet - INFO - *** Configuring hosts
+
+2021-10-06 05:30:16,270 - mininet - INFO - plc1 
+2021-10-06 05:30:16,270 - mininet - DEBUG - *** plc1 : ('ifconfig', 'plc1-eth0', 'down')
+
+2021-10-06 05:30:16,273 - mininet - DEBUG - 
+2021-10-06 05:30:16,274 - mininet - DEBUG - *** plc1 : ('ifconfig', 'plc1-eth0', 'hw', 'ether', '00:00:00:00:00:01')
+
+2021-10-06 05:30:16,276 - mininet - DEBUG - 
+2021-10-06 05:30:16,277 - mininet - DEBUG - *** plc1 : ('ifconfig', 'plc1-eth0', 'up')
+
+2021-10-06 05:30:16,279 - mininet - DEBUG - 
+2021-10-06 05:30:16,279 - mininet - DEBUG - *** plc1 : ('ifconfig', 'plc1-eth0', '10.0.0.1/24', 'up')
+
+2021-10-06 05:30:16,282 - mininet - DEBUG - 
+2021-10-06 05:30:16,283 - mininet - DEBUG - *** plc1 : ('ifconfig lo up',)
+
+2021-10-06 05:30:16,285 - mininet - DEBUG - 
+2021-10-06 05:30:16,285 - mininet - INFO - plc2 
+2021-10-06 05:30:16,286 - mininet - DEBUG - *** plc2 : ('ifconfig', 'plc2-eth0', 'down')
+
+2021-10-06 05:30:16,292 - mininet - DEBUG - 
+2021-10-06 05:30:16,292 - mininet - DEBUG - *** plc2 : ('ifconfig', 'plc2-eth0', 'hw', 'ether', '00:00:00:00:00:02')
+
+2021-10-06 05:30:16,295 - mininet - DEBUG - 
+2021-10-06 05:30:16,297 - mininet - DEBUG - *** plc2 : ('ifconfig', 'plc2-eth0', 'up')
+
+2021-10-06 05:30:16,299 - mininet - DEBUG - 
+2021-10-06 05:30:16,300 - mininet - DEBUG - *** plc2 : ('ifconfig', 'plc2-eth0', '10.0.0.2/24', 'up')
+
+2021-10-06 05:30:16,304 - mininet - DEBUG - 
+2021-10-06 05:30:16,304 - mininet - DEBUG - *** plc2 : ('ifconfig lo up',)
+
+2021-10-06 05:30:16,306 - mininet - DEBUG - 
+2021-10-06 05:30:16,306 - mininet - INFO - 
+
+2021-10-06 05:30:16,306 - mininet - INFO - *** Starting controller
+
+2021-10-06 05:30:16,307 - mininet - INFO - c0 
+2021-10-06 05:30:16,307 - mininet - DEBUG - *** errRun: ['which', 'controller'] 
+
+2021-10-06 05:30:16,310 - mininet - DEBUG - /usr/local/bin/controller
+  0
+2021-10-06 05:30:16,310 - mininet - DEBUG - *** c0 : ('controller ptcp:6653 1>/tmp/c0.log 2>/tmp/c0.log &',)
+
+2021-10-06 05:30:16,311 - mininet - DEBUG - [1] 12412
+
+2021-10-06 05:30:16,312 - mininet - DEBUG - 
+2021-10-06 05:30:16,312 - mininet - INFO - 
+
+2021-10-06 05:30:16,312 - mininet - INFO - *** Starting 1 switches
+
+2021-10-06 05:30:16,312 - mininet - INFO - s1 
+2021-10-06 05:30:16,313 - mininet - INFO - ...
+2021-10-06 05:30:16,313 - mininet - DEBUG - *** errRun: ovs-vsctl -- --id=@s1c0 create Controller target=\"tcp:127.0.0.1:6653\" max_backoff=1000 -- --if-exists del-br s1 -- add-br s1 -- set bridge s1 controller=[@s1c0] other_config:datapath-id=0000000000000001 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s1 -- add-port s1 s1-eth1 -- set Interface s1-eth1 ofport_request=1 -- add-port s1 s1-eth2 -- set Interface s1-eth2 ofport_request=2 
+
+2021-10-06 05:30:16,344 - mininet - DEBUG - 13945d36-4be6-46eb-a7e4-8843b281ad29
+  0
+2021-10-06 05:30:16,345 - mininet - INFO - 
+
+2021-10-06 05:30:16,345 - mininet - DEBUG - *** plc1 : ('/usr/bin/python plc1.py &',)
+
+2021-10-06 05:30:16,347 - mininet - DEBUG - 
+2021-10-06 05:30:16,348 - mininet - DEBUG - *** plc2 : ('/usr/bin/python plc2.py &',)
+
+2021-10-06 05:30:16,349 - mininet - DEBUG - 
+2021-10-06 05:30:16,350 - mininet - INFO - *** Starting CLI:
+
+2021-10-06 05:30:16,644 - mininet - DEBUG - *** errRun: ['stty', 'echo', 'sane', 'intr', '^C'] 
+
+2021-10-06 05:30:16,646 - mininet - DEBUG -   0
+2021-10-06 05:30:24,166 - mininet - DEBUG - *** errRun: ['stty', '-icanon', 'min', '1'] 
+
+2021-10-06 05:30:24,169 - mininet - DEBUG -   0
+2021-10-06 05:30:29,850 - mininet - Level 25 - QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+
+2021-10-06 05:34:11,811 - mininet - DEBUG - sendInt: writing chr(3)
+
+2021-10-06 05:34:11,835 - mininet - Level 25 - 
+
+2021-10-06 05:34:13,106 - mininet - Level 25 - 
+
+2021-10-06 05:34:13,107 - mininet - INFO - *** Stopping 1 controllers
+
+2021-10-06 05:34:13,107 - mininet - INFO - c0 
+2021-10-06 05:34:13,108 - mininet - DEBUG - *** c0 : ('kill %controller',)
+
+2021-10-06 05:34:13,109 - mininet - DEBUG - 
+2021-10-06 05:34:13,110 - mininet - DEBUG - *** c0 : ('wait %controller',)
+
+2021-10-06 05:34:13,111 - mininet - DEBUG - 
+2021-10-06 05:34:13,112 - mininet - INFO - 
+
+2021-10-06 05:34:13,112 - mininet - INFO - *** Stopping 2 links
+
+2021-10-06 05:34:13,113 - mininet - INFO - .
+2021-10-06 05:34:13,113 - mininet - DEBUG - *** plc1 : ('ip link del plc1-eth0',)
+
+2021-10-06 05:34:13,114 - mininet - DEBUG - DEBUG get_query: SELECT value FROM toy_table WHERE name = ? AND pid = ?
+DEBUG set_query: UPDATE toy_table SET value = ? WHERE name = ? AND pid = ?
+DEBUG EnipProtocol server addr:  10.0.0.1
+DEBUG: concatenating server address with default port.
+DEBUG enip server tags_string:  SENSOR1:1=INT SENSOR2:1=REAL SENSOR3:1=INT ACTUATOR1:1=INT ACTUATOR2:1=INT 
+DEBUG enip _start_server cmd:  ['/usr/bin/python', '-m', 'cpppo.server.enip', '--print', '--log', 'logs/protocols_tests_enip_server', '--address', '10.0.0.1:44818', 'SENSOR1:1=INT', 'SENSOR2:1=REAL', 'SENSOR3:1=INT', 'ACTUATOR1:1=INT', 'ACTUATOR2:1=INT']
+DEBUG: toy plc1 enters pre_loop
+
+10.0.0.1 44818
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main
+2021-10-06 05:34:13,115 - mininet - DEBUG - () )
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2178, in main
+    udp=args.udp, broadcast=args.broadcast, **connector_kwds ) as connection:
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python2.7/socket.py", line 576, in create_connection
+    raise err
+socket.error: [Errno 111] Connection refused
+DEBUG: toy plc1 enters main_loop
+
+DEBUG: toy plc1 get SENSOR3_2:  0
+           SENSOR3:1[    0-0    ] <= [1] 
+DEBUG: toy plc1 get SENSOR3_2:  1
+           SENSOR3:1[    0-0    ] <= [2] 
+DEBUG: toy plc1 get SENSOR3_2:  2
+           SENSOR3:1[    0-0    ] <= [3] 
+DEBUG: toy plc1 get SENSOR3_2:  3
+           SENSOR3:1[    0-0    ] <= [4] 
+
+2021-10-06 05:34:13,116 - mininet - DEBUG - DEBUG: toy plc1 get SENSOR3_2:  4
+DEBUG: toy plc1 get SENSOR3_2:  5
+           SENSOR3:1[    0-0    ] <= [5] 
+DEBUG: toy plc1 get SENSOR3_2:  6
+           SENSOR3:1[    0-0    ] <= [6] 
+DEBUG: toy plc1 get SENSOR3_2:  7
+           SENSOR3:1[    0-0    ] <= [7] 
+DEBUG: toy plc1 get SENSOR3_2:  7
+           SENSOR3:1[    0-0    ] <= [8] 
+DEBUG: toy plc1 get SENSOR3_2:  8
+           SENSOR3:1[    0-0    ] <= [9] 
+DEBUG: toy plc1 get SENSOR3_2:  9
+           SENSOR3:1[    0-0    ] <= [10] 
+DEBUG: toy plc1 get SENSOR3_2:  10
+           SENSOR3:1[    0-0    ] <= [11] 
+DEBUG: toy plc1 get SENSOR3_2:  11
+           SENSOR3:1[    0-0    ] <= [12] 
+DEBUG: toy plc1 get SENSOR3_2:  12
+DEBUG: toy plc1 get SENSOR3_2:  13
+           SENSOR3:1[    0-0    ] <= [13] 
+DEBUG: toy plc1 get SENSOR3_2:  14
+           SENSOR3:1[    0-0    ] <= [14] 
+DEBUG: toy plc1 get SENSOR3_2:  15
+           SENSOR3:1[    0-0    ] <= [15] 
+DEBUG: toy plc1 get SENSOR3_2:  15
+           SENSOR3:1[    0-0    ] <= [16] 
+DEBU
+2021-10-06 05:34:13,116 - mininet - DEBUG - G: toy plc1 get SENSOR3_2:  16
+DEBUG: toy plc1 get SENSOR3_2:  17
+           SENSOR3:1[    0-0    ] <= [17] 
+DEBUG: toy plc1 get SENSOR3_2:  18
+           SENSOR3:1[    0-0    ] <= [18] 
+DEBUG: toy plc1 get SENSOR3_2:  19
+           SENSOR3:1[    0-0    ] <= [19] 
+DEBUG: toy plc1 get SENSOR3_2:  20
+           SENSOR3:1[    0-0    ] <= [20] 
+DEBUG: toy plc1 get SENSOR3_2:  21
+           SENSOR3:1[    0-0    ] <= [21] 
+DEBUG: toy plc1 get SENSOR3_2:  21
+           SENSOR3:1[    0-0    ] <= [22] 
+DEBUG: toy plc1 get SENSOR3_2:  22
+DEBUG: toy plc1 get SENSOR3_2:  23
+           SENSOR3:1[    0-0    ] <= [23] 
+DEBUG: toy plc1 get SENSOR3_2:  24
+           SENSOR3:1[    0-0    ] <= [24] 
+DEBUG: toy plc1 get SENSOR3_2:  25
+           SENSOR3:1[    0-0    ] <= [25] 
+DEBUG: toy plc1 get SENSOR3_2:  26
+           SENSOR3:1[    0-0    ] <= [26] 
+DEBUG: toy plc1 get SENSOR3_2:  27
+           SENSOR3:1[    0-0    ] <= [27] 
+DEBUG: toy plc1 get SENSOR3_2:  28
+           SENSOR3:1[    0-0    ] <= [28
+2021-10-06 05:34:13,117 - mininet - DEBUG - ] 
+DEBUG: toy plc1 get SENSOR3_2:  29
+           SENSOR3:1[    0-0    ] <= [29] 
+DEBUG: toy plc1 get SENSOR3_2:  30
+           SENSOR3:1[    0-0    ] <= [30] 
+DEBUG: toy plc1 get SENSOR3_2:  30
+           SENSOR3:1[    0-0    ] <= [31] 
+DEBUG: toy plc1 get SENSOR3_2:  31
+           SENSOR3:1[    0-0    ] <= [32] 
+DEBUG: toy plc1 get SENSOR3_2:  32
+           SENSOR3:1[    0-0    ] <= [33] 
+DEBUG: toy plc1 get SENSOR3_2:  33
+           SENSOR3:1[    0-0    ] <= [34] 
+DEBUG: toy plc1 get SENSOR3_2:  34
+           SENSOR3:1[    0-0    ] <= [35] 
+DEBUG: toy plc1 get SENSOR3_2:  35
+           SENSOR3:1[    0-0    ] <= [36] 
+DEBUG: toy plc1 get SENSOR3_2:  36
+           SENSOR3:1[    0-0    ] <= [37] 
+DEBUG: toy plc1 get SENSOR3_2:  37
+           SENSOR3:1[    0-0    ] <= [38] 
+DEBUG: toy plc1 get SENSOR3_2:  38
+           SENSOR3:1[    0-0    ] <= [39] 
+DEBUG: toy plc1 get SENSOR3_2:  39
+           SENSOR3:1[    0-0    ] <= [40] 
+DEBUG: toy plc1 get SENSOR3_2:  40
+           SENSOR3:1[   

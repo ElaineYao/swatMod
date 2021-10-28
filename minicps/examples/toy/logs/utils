@@ -1,0 +1,114 @@
+2021-10-06 11:32:55,776 - mininet - DEBUG - ponses:   0/  1
+DEBUG: toy plc2 set SENSOR3_2:  216
+10.0.0.1 44818
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2178, in main
+    udp=args.udp, broadcast=args.broadcast, **connector_kwds ) as connection:
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 1261, in __init__
+    assert data is not None, "Failed to receive any response"
+AssertionError: Failed to receive any response
+DEBUG: toy plc2 set SENSOR3_2:  217
+10.0.0.1 44818
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name
+2021-10-06 11:32:55,794 - mininet - DEBUG - )
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2178, in main
+    udp=args.udp, broadcast=args.broadcast, **connector_kwds ) as connection:
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 1261, in __init__
+    assert data is not None, "Failed to receive any response"
+AssertionError: Failed to receive any response
+DEBUG: toy plc2 set SENSOR3_2:  218
+10.0.0.1 44818
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+2021-10-06 11:32:55,795 - mininet - DEBUG - 
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2178, in main
+    udp=args.udp, broadcast=args.broadcast, **connector_kwds ) as connection:
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 1261, in __init__
+    assert data is not None, "Failed to receive any response"
+AssertionError: Failed to receive any response
+DEBUG: toy plc2 set SENSOR3_2:  219
+10.0.0.1 44818
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2178, in main
+    udp=args.udp, broadcast=args.broadcast, **connector_kwds ) as connection:
+  File "/usr/local/lib/python2.7/dist-p
+2021-10-06 11:32:55,795 - mininet - DEBUG - ackages/cpppo/server/enip/client.py", line 1261, in __init__
+    assert data is not None, "Failed to receive any response"
+AssertionError: Failed to receive any response
+DEBUG: toy plc2 set SENSOR3_2:  220
+10.0.0.1 44818
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2178, in main
+    udp=args.udp, broadcast=args.broadcast, **connector_kwds ) as connection:
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 1261, in __init__
+    assert data is not None, "Failed to receive any response"
+AssertionError: Failed to receive any response
+DEBUG: toy plc2 set SENSOR3_2:  221
+10.0.0.
+2021-10-06 11:32:55,796 - mininet - DEBUG - 1 44818
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 2178, in main
+    udp=args.udp, broadcast=args.broadcast, **connector_kwds ) as connection:
+  File "/usr/local/lib/python2.7/dist-packages/cpppo/server/enip/client.py", line 1261, in __init__
+
+2021-10-06 11:32:55,797 - mininet - DEBUG - 
+2021-10-06 11:32:55,798 - mininet - DEBUG - *** s1 : ('ip link del s1-eth2',)
+
+2021-10-06 11:32:55,811 - mininet - DEBUG - Cannot find device "s1-eth2"
+
+2021-10-06 11:32:55,812 - mininet - DEBUG - 
+2021-10-06 11:32:55,812 - mininet - INFO - 
+
+2021-10-06 11:32:55,812 - mininet - INFO - *** Stopping 1 switches
+
+2021-10-06 11:32:55,812 - mininet - DEBUG - *** errRun: ['ovs-vsctl', '--if-exists', 'del-br', 's1'] 
+
+2021-10-06 11:32:56,487 - mininet - DEBUG -   0
+2021-10-06 11:32:56,488 - mininet - DEBUG - *** errRun: ['kill', '-HUP', '16782'] 
+
+2021-10-06 11:32:56,682 - mininet - DEBUG -   0
+2021-10-06 11:32:56,683 - mininet - INFO - s1 
+2021-10-06 11:32:56,683 - mininet - INFO - 
+
+2021-10-06 11:32:56,684 - mininet - INFO - *** Stopping 2 hosts
+
+2021-10-06 11:32:56,684 - mininet - INFO - plc1 
+2021-10-06 11:32:56,684 - mininet - INFO - plc2 
+2021-10-06 11:32:56,687 - mininet - INFO - 
+*** Done
+

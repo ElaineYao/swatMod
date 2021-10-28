@@ -87,10 +87,10 @@ target/
 
 # MiniCPS
 
-/logs
-examples/toy/logs
-examples/swat/logs
-examples/swat-s1/logs
+#/logs
+#examples/toy/logs
+#examples/swat/logs
+#examples/swat-s1/logs
 
 # State
 *.sqlite

@@ -1,0 +1,179 @@
+2021-10-29 02:02:30,824 - mininet - DEBUG - 64 bytes from 192.168.1.50: icmp_seq=1 ttl=64 time=1.27 ms
+
+--- 192.168.1.50 ping statistics ---
+
+2021-10-29 02:02:30,872 - mininet - DEBUG - 1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.279/1.279/1.279/0.000 ms
+
+2021-10-29 02:02:30,873 - mininet - Level 25 - plc5 
+2021-10-29 02:02:30,873 - mininet - DEBUG - *** plc4 : ('ping -c1  192.168.1.60',)
+
+2021-10-29 02:02:30,876 - mininet - DEBUG - PING 192.168.1.60 (192.168.1.60) 56(84) bytes of data.
+
+2021-10-29 02:02:30,879 - mininet - DEBUG - 64 bytes from 192.168.1.60: icmp_seq=1 ttl=64 time=3.13 ms
+
+
+2021-10-29 02:02:30,880 - mininet - DEBUG - --- 192.168.1.60 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.130/3.130/3.130/0.000 ms
+
+2021-10-29 02:02:30,880 - mininet - Level 25 - plc6 
+2021-10-29 02:02:30,880 - mininet - Level 25 - 
+
+2021-10-29 02:02:30,880 - mininet - Level 25 - plc5 -> 
+2021-10-29 02:02:30,880 - mininet - DEBUG - *** plc5 : ('ping -c1  192.168.1.10',)
+
+2021-10-29 02:02:30,882 - mininet - DEBUG - PING 192.168.1.10 (192.168.1.10) 56(84) bytes of data.
+
+2021-10-29 02:02:30,883 - mininet - DEBUG - 64 bytes from 192.168.1.10: icmp_seq=1 ttl=64 time=0.980 ms
+
+--- 192.168.1.10 ping statistics ---
+
+2021-10-29 02:02:30,884 - mininet - DEBUG - 1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.980/0.980/0.980/0.000 ms
+
+2021-10-29 02:02:30,884 - mininet - DEBUG - 
+2021-10-29 02:02:30,885 - mininet - Level 25 - plc1 
+2021-10-29 02:02:30,885 - mininet - DEBUG - *** plc5 : ('ping -c1  192.168.1.20',)
+
+2021-10-29 02:02:30,887 - mininet - DEBUG - PING 192.168.1.20 (192.168.1.20) 56(84) bytes of data.
+
+2021-10-29 02:02:30,888 - mininet - DEBUG - 64 bytes from 192.168.1.20: icmp_seq=1 ttl=64 time=0.824 ms
+
+--- 192.168.1.20 ping statistics ---
+
+2021-10-29 02:02:30,888 - mininet - DEBUG - 1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.824/0.824/0.824/0.000 ms
+
+2021-10-29 02:02:30,888 - mininet - Level 25 - plc2 
+2021-10-29 02:02:30,888 - mininet - DEBUG - *** plc5 : ('ping -c1  192.168.1.30',)
+
+2021-10-29 02:02:30,890 - mininet - DEBUG - PING 192.168.1.30 (192.168.1.30) 56(84) bytes of data.
+
+2021-10-29 02:02:30,891 - mininet - DEBUG - 64 bytes from 192.168.1.30: icmp_seq=1 ttl=64 time=0.718 ms
+
+
+2021-10-29 02:02:30,891 - mininet - DEBUG - --- 192.168.1.30 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.718/0.718/0.718/0.000 ms
+
+2021-10-29 02:02:30,891 - mininet - Level 25 - plc3 
+2021-10-29 02:02:30,892 - mininet - DEBUG - *** plc5 : ('ping -c1  192.168.1.40',)
+
+2021-10-29 02:02:30,893 - mininet - DEBUG - PING 192.168.1.40 (192.168.1.40) 56(84) bytes of data.
+
+2021-10-29 02:02:30,894 - mininet - DEBUG - 64 bytes from 192.168.1.40: icmp_seq=1 ttl=64 time=0.816 ms
+
+
+2021-10-29 02:02:30,894 - mininet - DEBUG - --- 192.168.1.40 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.816/0.816/0.816/0.000 ms
+
+2021-10-29 02:02:30,895 - mininet - DEBUG - 
+2021-10-29 02:02:30,895 - mininet - Level 25 - plc4 
+2021-10-29 02:02:30,895 - mininet - DEBUG - *** plc5 : ('ping -c1  192.168.1.60',)
+
+2021-10-29 02:02:30,897 - mininet - DEBUG - PING 192.168.1.60 (192.168.1.60) 56(84) bytes of data.
+
+2021-10-29 02:02:30,899 - mininet - DEBUG - 64 bytes from 192.168.1.60: icmp_seq=1 ttl=64 time=1.93 ms
+
+--- 192.168.1.60 ping statistics ---
+
+2021-10-29 02:02:30,899 - mininet - DEBUG - 1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.933/1.933/1.933/0.000 ms
+
+2021-10-29 02:02:30,900 - mininet - Level 25 - plc6 
+2021-10-29 02:02:30,900 - mininet - Level 25 - 
+
+2021-10-29 02:02:30,900 - mininet - Level 25 - plc6 -> 
+2021-10-29 02:02:30,900 - mininet - DEBUG - *** plc6 : ('ping -c1  192.168.1.10',)
+
+2021-10-29 02:02:30,902 - mininet - DEBUG - PING 192.168.1.10 (192.168.1.10) 56(84) bytes of data.
+
+2021-10-29 02:02:30,904 - mininet - DEBUG - 64 bytes from 192.168.1.10: icmp_seq=1 ttl=64 time=1.23 ms
+
+--- 192.168.1.10 ping statistics ---
+
+2021-10-29 02:02:30,904 - mininet - DEBUG - 1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.231/1.231/1.231/0.000 ms
+
+2021-10-29 02:02:30,905 - mininet - Level 25 - plc1 
+2021-10-29 02:02:30,905 - mininet - DEBUG - *** plc6 : ('ping -c1  192.168.1.20',)
+
+2021-10-29 02:02:30,907 - mininet - DEBUG - PING 192.168.1.20 (192.168.1.20) 56(84) bytes of data.
+
+2021-10-29 02:02:30,908 - mininet - DEBUG - 64 bytes from 192.168.1.20: icmp_seq=1 ttl=64 time=0.918 ms
+
+--- 192.168.1.20 ping statistics ---
+
+2021-10-29 02:02:30,908 - mininet - DEBUG - 1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.918/0.918/0.918/0.000 ms
+
+2021-10-29 02:02:30,909 - mininet - Level 25 - plc2 
+2021-10-29 02:02:30,909 - mininet - DEBUG - *** plc6 : ('ping -c1  192.168.1.30',)
+
+2021-10-29 02:02:30,913 - mininet - DEBUG - PING 192.168.1.30 (192.168.1.30) 56(84) bytes of data.
+
+2021-10-29 02:02:30,915 - mininet - DEBUG - 64 bytes from 192.168.1.30: icmp_seq=1 ttl=64 time=1.84 ms
+
+
+2021-10-29 02:02:30,915 - mininet - DEBUG - --- 192.168.1.30 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.841/1.841/1.841/0.000 ms
+
+2021-10-29 02:02:30,915 - mininet - Level 25 - plc3 
+2021-10-29 02:02:30,916 - mininet - DEBUG - *** plc6 : ('ping -c1  192.168.1.40',)
+
+2021-10-29 02:02:30,917 - mininet - DEBUG - PING 192.168.1.40 (192.168.1.40) 56(84) bytes of data.
+
+2021-10-29 02:02:30,918 - mininet - DEBUG - 64 bytes from 192.168.1.40: icmp_seq=1 ttl=64 time=0.823 ms
+
+
+2021-10-29 02:02:30,919 - mininet - DEBUG - --- 192.168.1.40 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.823/0.823/0.823/0.000 ms
+
+2021-10-29 02:02:30,919 - mininet - Level 25 - plc4 
+2021-10-29 02:02:30,919 - mininet - DEBUG - *** plc6 : ('ping -c1  192.168.1.50',)
+
+2021-10-29 02:02:30,921 - mininet - DEBUG - PING 192.168.1.50 (192.168.1.50) 56(84) bytes of data.
+
+2021-10-29 02:02:30,922 - mininet - DEBUG - 64 bytes from 192.168.1.50: icmp_seq=1 ttl=64 time=0.777 ms
+
+--- 192.168.1.50 ping statistics ---
+
+2021-10-29 02:02:30,922 - mininet - DEBUG - 1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.777/0.777/0.777/0.000 ms
+
+2021-10-29 02:02:30,923 - mininet - Level 25 - plc5 
+2021-10-29 02:02:30,923 - mininet - Level 25 - 
+
+2021-10-29 02:02:30,923 - mininet - Level 25 - *** Results: 0% dropped (30/30 received)
+
+2021-10-29 02:02:30,923 - mininet - INFO - *** Starting CLI:
+
+2021-10-29 02:02:31,716 - mininet - DEBUG - *** errRun: ['stty', 'echo', 'sane', 'intr', '^C'] 
+
+2021-10-29 02:02:31,735 - mininet - DEBUG -   0
+2021-10-29 02:02:35,368 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+
+2021-10-29 02:02:35,611 - mininet - DEBUG - localuser:root being added to access control list
+  0
+2021-10-29 02:02:35,613 - mininet - DEBUG - _popen ['mnexec', '-da', '5876', 'xterm', '-title', '"Node: plc2"', '-display', ':0', '-e', 'env TERM=ansi bash'] 6057
+2021-10-29 02:02:42,541 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+
+2021-10-29 02:02:42,548 - mininet - DEBUG - localuser:root being added to access control list
+  0
+2021-10-29 02:02:42,551 - mininet - DEBUG - _popen ['mnexec', '-da', '5878', 'xterm', '-title', '"Node: plc3"', '-display', ':0', '-e', 'env TERM=ansi bash'] 6076
+2021-10-29 02:02:51,080 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+
+2021-10-29 02:02:51,088 - mininet - DEBUG - localuser:root being added to access control list
+  0
+2021-10-29 02:02:51,092 - mininet - DEBUG - _popen ['mnexec', '-da', '5874', 'xterm', '-title', '"Node: plc1"', '-display', ':0', '-e', 'env TERM=ansi bash'] 6090
+2021-10-29 02:02:56,542 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+
+2021-10-29 02:02:56,549 - mininet - DEBUG - localuser:root being added to access control list
+  0
+2021-10-29 02:02:56,552 - mininet - DEBUG - _popen ['mnexec', '-da', '5890', 'xterm', '-title', '"Node: s1" (root)', '-display', ':0', '-e', 'env TERM=ansi bash'] 6102
+2021-10-29 02:04:35,117 - mininet - Level 25 - 
+

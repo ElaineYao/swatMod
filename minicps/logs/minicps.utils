@@ -1,0 +1,28 @@
+2021-10-05 04:49:09,686 - mininet - DEBUG - 
+2021-10-05 04:49:09,687 - mininet - DEBUG - *** s1 : ('ip link del s1-eth4',)
+
+2021-10-05 04:49:09,697 - mininet - DEBUG - Cannot find device "s1-eth4"
+
+2021-10-05 04:49:09,697 - mininet - DEBUG - 
+2021-10-05 04:49:09,697 - mininet - INFO - 
+
+2021-10-05 04:49:09,698 - mininet - INFO - *** Stopping 1 switches
+
+2021-10-05 04:49:09,698 - mininet - DEBUG - *** errRun: ['ovs-vsctl', '--if-exists', 'del-br', 's1'] 
+
+2021-10-05 04:49:09,775 - mininet - DEBUG -   0
+2021-10-05 04:49:09,776 - mininet - DEBUG - *** errRun: ['kill', '-HUP', '25945'] 
+
+2021-10-05 04:49:09,830 - mininet - DEBUG -   0
+2021-10-05 04:49:09,831 - mininet - INFO - s1 
+2021-10-05 04:49:09,831 - mininet - INFO - 
+
+2021-10-05 04:49:09,831 - mininet - INFO - *** Stopping 4 hosts
+
+2021-10-05 04:49:09,832 - mininet - INFO - h1 
+2021-10-05 04:49:09,832 - mininet - INFO - h2 
+2021-10-05 04:49:09,832 - mininet - INFO - h3 
+2021-10-05 04:49:09,832 - mininet - INFO - h4 
+2021-10-05 04:49:09,833 - mininet - INFO - 
+*** Done
+
