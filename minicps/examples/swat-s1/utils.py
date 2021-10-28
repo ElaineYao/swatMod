@@ -95,7 +95,10 @@ IP = {
     'plc4': '192.168.1.40',
     'plc5': '192.168.1.50',
     'plc6': '192.168.1.60',
-    'attacker': '192.168.1.77',
+    # 'attacker': '192.168.1.77',
+    'hmi': '192.168.1.100',
+    'hist': '192.168.1.200',
+    'workstation': '192.168.1.201'
 }
 
 NETMASK = '/24'
@@ -107,7 +110,10 @@ MAC = {
     'plc4': '00:1D:9C:C7:FA:2C',
     'plc5': '00:1D:9C:C8:BC:2F',
     'plc6': '00:1D:9C:C7:FA:2D',
-    'attacker': 'AA:AA:AA:AA:AA:AA',
+    'hmi': '00:1D:9C:C6:72:e8',
+    'hist': '00:15:5D:01:9A:49',
+    'workstation': '00:0C:29:74:0B:C7',
+    # 'attacker': 'AA:AA:AA:AA:AA:AA',
 }
 
 

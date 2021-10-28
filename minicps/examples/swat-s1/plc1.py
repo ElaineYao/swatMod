@@ -82,8 +82,8 @@ class SwatPLC1(PLC):
             # TODO: use it when implement raw water tank
             # read from PLC2 (constant value)
             fit201 = (self.receive(FIT201_2, PLC2_ADDR))
-	    print "fit201", fit201	
-	    fit201 = float(fit201)	
+            print "fit201", fit201	
+	    fit201 = float(fit201)
             print "DEBUG PLC1 - receive fit201: %f" % fit201
             self.send(FIT201_1, fit201, PLC1_ADDR)
 
