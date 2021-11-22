@@ -14,14 +14,18 @@ PLC1_ADDR = IP['plc1']
 PLC2_ADDR = IP['plc2']
 PLC3_ADDR = IP['plc3']
 
-FIT201_2 = ('FIT201', 2)
+# Elaine --version
+send_FIT201_2 = ('HR', 0, 'FIT201')
+# send_FIT201_2 = ('CO', 0, 'FIT201')
+get_FIT201_2 = ('FIT201', 2)
+# FIT201_2 = ('FIT201', 2)
 
 
 class SwatPLC2(PLC):
 
     def pre_loop(self, sleep=0.1):
-        print 'DEBUG: swat-s1 plc2 enters pre_loop'
-        print
+        print ('DEBUG: swat-s1 plc2 enters pre_loop')
+        print()
 
         time.sleep(sleep)
 
@@ -32,23 +36,25 @@ class SwatPLC2(PLC):
             - update interal enip server
         """
 
-        print 'DEBUG: swat-s1 plc2 enters main_loop.'
-        print
+        print ('DEBUG: swat-s1 plc2 enters main_loop.')
+        print()
 
         count = 0
         while(count <= PLC_SAMPLES):
 
-            fit201 = float(self.get(FIT201_2))
-            print "DEBUG PLC2 - get fit201: %f" % fit201
-
-            self.send(FIT201_2, fit201, PLC2_ADDR)
-            fit201 = self.receive(FIT201_2, PLC2_ADDR)
-            print "DEBUG PLC2 - receive fit201: ", fit201
+            fit201 = int(float(self.get(get_FIT201_2)))
+            print(("DEBUG PLC2 - get fit201: %f" % fit201))
+            # fit201 = True
+            self.send(send_FIT201_2, fit201, (PLC2_ADDR+ ':502'))
+            # self.send(send_FIT201_2, fit201, ('localhost:502'))
+            print(("DEBUG PLC2 - send fit201: ", fit201))
+            fit201 = self.receive(send_FIT201_2, (PLC2_ADDR+ ':502'))
+            print(("DEBUG PLC2 - receive fit201: ", fit201))
 
             time.sleep(PLC_PERIOD_SEC)
             count += 1
 
-        print 'DEBUG swat plc2 shutdown'
+        print ('DEBUG swat plc2 shutdown')
 
 
 if __name__ == "__main__":

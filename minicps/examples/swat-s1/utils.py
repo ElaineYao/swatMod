@@ -91,6 +91,7 @@ FIT_201_THRESH = 1.00
 IP = {
     'plc1': '192.168.1.10',
     'plc2': '192.168.1.20',
+    # 'plc2': '0.0.0.0',
     'plc3': '192.168.1.30',
     'plc4': '192.168.1.40',
     'plc5': '192.168.1.50',
@@ -100,6 +101,7 @@ IP = {
     'hist': '192.168.1.200',
     'workstation': '192.168.1.201'
 }
+
 
 NETMASK = '/24'
 
@@ -138,54 +140,66 @@ PLC3_DATA = {
 
 # SPHINX_SWAT_TUTORIAL PLC1 UTILS(
 PLC1_ADDR = IP['plc1']
-PLC1_TAGS = (
-    ('FIT101', 1, 'REAL'),
-    ('MV101', 1, 'INT'),
-    ('LIT101', 1, 'REAL'),
-    ('P101', 1, 'INT'),
-    # interlocks does NOT go to the statedb
-    ('FIT201', 1, 'REAL'),
-    ('MV201', 1, 'INT'),
-    ('LIT301', 1, 'REAL'),
-)
+# Elaine version-----
+PLC1_TAGS = (10,10,10,10)
+# PLC1_TAGS = (
+#     ('FIT101', 1, 'REAL'),
+#     ('MV101', 1, 'INT'),
+#     ('LIT101', 1, 'REAL'),
+#     ('P101', 1, 'INT'),
+#     # interlocks does NOT go to the statedb
+#     ('FIT201', 1, 'REAL'),
+#     ('MV201', 1, 'INT'),
+#     ('LIT301', 1, 'REAL'),
+# )
 PLC1_SERVER = {
     'address': PLC1_ADDR,
     'tags': PLC1_TAGS
 }
+# TODO: change protocol
 PLC1_PROTOCOL = {
-    'name': 'enip',
+    # 'name': 'enip',
+    'name': 'modbus',
     'mode': 1,
     'server': PLC1_SERVER
 }
 # SPHINX_SWAT_TUTORIAL PLC1 UTILS)
 
 PLC2_ADDR = IP['plc2']
-PLC2_TAGS = (
-    ('FIT201', 2, 'REAL'),
-    ('MV201', 2, 'INT'),
+# Elaine version-----
+PLC2_TAGS = (10,10,10,10)
+# PLC2_TAGS = (
+    # ('FIT201', 2, 'REAL'),
+    # ('MV201', 2, 'INT'),
     # no interlocks
-)
+# )
 PLC2_SERVER = {
     'address': PLC2_ADDR,
     'tags': PLC2_TAGS
 }
+# TODO: change protocol
 PLC2_PROTOCOL = {
-    'name': 'enip',
+    # 'name': 'enip',
+    'name': 'modbus',
     'mode': 1,
     'server': PLC2_SERVER
 }
 
 PLC3_ADDR = IP['plc3']
-PLC3_TAGS = (
-    ('LIT301', 3, 'REAL'),
+# Elaine version-----
+PLC3_TAGS = (10,10,10,10)
+# PLC3_TAGS = (
+    # ('LIT301', 3, 'REAL'),
     # no interlocks
-)
+# )
 PLC3_SERVER = {
     'address': PLC3_ADDR,
     'tags': PLC3_TAGS
 }
+# TODO: change protocol
 PLC3_PROTOCOL = {
-    'name': 'enip',
+    # 'name': 'enip',
+    'name': 'modbus',
     'mode': 1,
     'server': PLC3_SERVER
 }

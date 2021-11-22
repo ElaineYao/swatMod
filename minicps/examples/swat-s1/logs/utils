@@ -1,65 +1,98 @@
-2021-10-29 02:02:30,913 - mininet - DEBUG - PING 192.168.1.30 (192.168.1.30) 56(84) bytes of data.
+2021-11-10 19:11:26,431 - mininet - Level 25 - 
 
-2021-10-29 02:02:30,915 - mininet - DEBUG - 64 bytes from 192.168.1.30: icmp_seq=1 ttl=64 time=1.84 ms
+2021-11-10 19:11:26,432 - mininet - Level 25 - plc3
+2021-11-10 19:11:26,432 - mininet - Level 25 -  plc3-eth0:
+2021-11-10 19:11:26,433 - mininet - Level 25 - s1-eth3
+2021-11-10 19:11:26,434 - mininet - Level 25 - 
 
+2021-11-10 19:11:26,434 - mininet - Level 25 - plc4
+2021-11-10 19:11:26,435 - mininet - Level 25 -  plc4-eth0:
+2021-11-10 19:11:26,435 - mininet - Level 25 - s1-eth4
+2021-11-10 19:11:26,436 - mininet - Level 25 - 
 
-2021-10-29 02:02:30,915 - mininet - DEBUG - --- 192.168.1.30 ping statistics ---
-1 packets transmitted, 1 received, 0% packet loss, time 0ms
-rtt min/avg/max/mdev = 1.841/1.841/1.841/0.000 ms
+2021-11-10 19:11:26,440 - mininet - Level 25 - plc5
+2021-11-10 19:11:26,440 - mininet - Level 25 -  plc5-eth0:
+2021-11-10 19:11:26,440 - mininet - Level 25 - s1-eth5
+2021-11-10 19:11:26,441 - mininet - Level 25 - 
 
-2021-10-29 02:02:30,915 - mininet - Level 25 - plc3 
-2021-10-29 02:02:30,916 - mininet - DEBUG - *** plc6 : ('ping -c1  192.168.1.40',)
+2021-11-10 19:11:26,441 - mininet - Level 25 - plc6
+2021-11-10 19:11:26,441 - mininet - Level 25 -  plc6-eth0:
+2021-11-10 19:11:26,441 - mininet - Level 25 - s1-eth6
+2021-11-10 19:11:26,442 - mininet - Level 25 - 
 
-2021-10-29 02:02:30,917 - mininet - DEBUG - PING 192.168.1.40 (192.168.1.40) 56(84) bytes of data.
+2021-11-10 19:11:26,442 - mininet - Level 25 - s1
+2021-11-10 19:11:26,442 - mininet - Level 25 -  lo:
+2021-11-10 19:11:26,443 - mininet - Level 25 -  
+2021-11-10 19:11:26,443 - mininet - Level 25 -  s1-eth1:
+2021-11-10 19:11:26,443 - mininet - Level 25 - plc1-eth0
+2021-11-10 19:11:26,443 - mininet - Level 25 -  s1-eth2:
+2021-11-10 19:11:26,444 - mininet - Level 25 - plc2-eth0
+2021-11-10 19:11:26,446 - mininet - Level 25 -  s1-eth3:
+2021-11-10 19:11:26,446 - mininet - Level 25 - plc3-eth0
+2021-11-10 19:11:26,447 - mininet - Level 25 -  s1-eth4:
+2021-11-10 19:11:26,447 - mininet - Level 25 - plc4-eth0
+2021-11-10 19:11:26,447 - mininet - Level 25 -  s1-eth5:
+2021-11-10 19:11:26,447 - mininet - Level 25 - plc5-eth0
+2021-11-10 19:11:26,448 - mininet - Level 25 -  s1-eth6:
+2021-11-10 19:11:26,448 - mininet - Level 25 - plc6-eth0
+2021-11-10 19:11:26,448 - mininet - Level 25 - 
 
-2021-10-29 02:02:30,918 - mininet - DEBUG - 64 bytes from 192.168.1.40: icmp_seq=1 ttl=64 time=0.823 ms
+2021-11-10 19:11:26,450 - mininet - Level 25 - c0
+2021-11-10 19:11:26,450 - mininet - Level 25 - 
 
+2021-11-10 19:14:10,935 - mininet - DEBUG - _popen ['mnexec', '-da', '3574', 'ip', 'link', 'show'] 4555
+2021-11-10 19:14:11,285 - mininet - DEBUG - _popen ['mnexec', '-da', '3589', 'ip', 'link', 'show'] 4556
+2021-11-10 19:14:11,289 - mininet - Level 25 - plc1-eth0<->s1-eth1 (OK OK) 
 
-2021-10-29 02:02:30,919 - mininet - DEBUG - --- 192.168.1.40 ping statistics ---
-1 packets transmitted, 1 received, 0% packet loss, time 0ms
-rtt min/avg/max/mdev = 0.823/0.823/0.823/0.000 ms
+2021-11-10 19:14:11,291 - mininet - DEBUG - _popen ['mnexec', '-da', '3576', 'ip', 'link', 'show'] 4557
+2021-11-10 19:14:11,295 - mininet - DEBUG - _popen ['mnexec', '-da', '3589', 'ip', 'link', 'show'] 4558
+2021-11-10 19:14:11,299 - mininet - Level 25 - plc2-eth0<->s1-eth2 (OK OK) 
 
-2021-10-29 02:02:30,919 - mininet - Level 25 - plc4 
-2021-10-29 02:02:30,919 - mininet - DEBUG - *** plc6 : ('ping -c1  192.168.1.50',)
+2021-11-10 19:14:11,301 - mininet - DEBUG - _popen ['mnexec', '-da', '3578', 'ip', 'link', 'show'] 4559
+2021-11-10 19:14:11,305 - mininet - DEBUG - _popen ['mnexec', '-da', '3589', 'ip', 'link', 'show'] 4560
+2021-11-10 19:14:11,310 - mininet - Level 25 - plc3-eth0<->s1-eth3 (OK OK) 
 
-2021-10-29 02:02:30,921 - mininet - DEBUG - PING 192.168.1.50 (192.168.1.50) 56(84) bytes of data.
+2021-11-10 19:14:11,313 - mininet - DEBUG - _popen ['mnexec', '-da', '3580', 'ip', 'link', 'show'] 4561
+2021-11-10 19:14:11,319 - mininet - DEBUG - _popen ['mnexec', '-da', '3589', 'ip', 'link', 'show'] 4562
+2021-11-10 19:14:11,321 - mininet - Level 25 - plc4-eth0<->s1-eth4 (OK OK) 
 
-2021-10-29 02:02:30,922 - mininet - DEBUG - 64 bytes from 192.168.1.50: icmp_seq=1 ttl=64 time=0.777 ms
+2021-11-10 19:14:11,323 - mininet - DEBUG - _popen ['mnexec', '-da', '3582', 'ip', 'link', 'show'] 4563
+2021-11-10 19:14:11,329 - mininet - DEBUG - _popen ['mnexec', '-da', '3589', 'ip', 'link', 'show'] 4564
+2021-11-10 19:14:11,331 - mininet - Level 25 - plc5-eth0<->s1-eth5 (OK OK) 
 
---- 192.168.1.50 ping statistics ---
+2021-11-10 19:14:11,333 - mininet - DEBUG - _popen ['mnexec', '-da', '3584', 'ip', 'link', 'show'] 4565
+2021-11-10 19:14:11,337 - mininet - DEBUG - _popen ['mnexec', '-da', '3589', 'ip', 'link', 'show'] 4566
+2021-11-10 19:14:11,339 - mininet - Level 25 - plc6-eth0<->s1-eth6 (OK OK) 
 
-2021-10-29 02:02:30,922 - mininet - DEBUG - 1 packets transmitted, 1 received, 0% packet loss, time 0ms
-rtt min/avg/max/mdev = 0.777/0.777/0.777/0.000 ms
+2021-11-10 19:14:53,943 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
 
-2021-10-29 02:02:30,923 - mininet - Level 25 - plc5 
-2021-10-29 02:02:30,923 - mininet - Level 25 - 
-
-2021-10-29 02:02:30,923 - mininet - Level 25 - *** Results: 0% dropped (30/30 received)
-
-2021-10-29 02:02:30,923 - mininet - INFO - *** Starting CLI:
-
-2021-10-29 02:02:31,716 - mininet - DEBUG - *** errRun: ['stty', 'echo', 'sane', 'intr', '^C'] 
-
-2021-10-29 02:02:31,735 - mininet - DEBUG -   0
-2021-10-29 02:02:35,368 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
-
-2021-10-29 02:02:35,611 - mininet - DEBUG - localuser:root being added to access control list
+2021-11-10 19:14:53,947 - mininet - DEBUG - localuser:root being added to access control list
   0
-2021-10-29 02:02:35,613 - mininet - DEBUG - _popen ['mnexec', '-da', '5876', 'xterm', '-title', '"Node: plc2"', '-display', ':0', '-e', 'env TERM=ansi bash'] 6057
-2021-10-29 02:02:42,541 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+2021-11-10 19:14:53,948 - mininet - DEBUG - _popen ['mnexec', '-da', '3574', 'xterm', '-title', '"Node: plc1"', '-display', ':0', '-e', 'env TERM=ansi bash'] 4805
+2021-11-10 19:16:02,359 - mininet - Level 25 - available nodes are: 
+c0 plc1 plc2 plc3 plc4 plc5 plc6 s1
 
-2021-10-29 02:02:42,548 - mininet - DEBUG - localuser:root being added to access control list
-  0
-2021-10-29 02:02:42,551 - mininet - DEBUG - _popen ['mnexec', '-da', '5878', 'xterm', '-title', '"Node: plc3"', '-display', ':0', '-e', 'env TERM=ansi bash'] 6076
-2021-10-29 02:02:51,080 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+2021-11-10 19:16:06,800 - mininet - Level 25 - <Host plc1: plc1-eth0:192.168.1.10 pid=3574> 
 
-2021-10-29 02:02:51,088 - mininet - DEBUG - localuser:root being added to access control list
-  0
-2021-10-29 02:02:51,092 - mininet - DEBUG - _popen ['mnexec', '-da', '5874', 'xterm', '-title', '"Node: plc1"', '-display', ':0', '-e', 'env TERM=ansi bash'] 6090
-2021-10-29 02:02:56,542 - mininet - DEBUG - *** errRun: ['xhost', '+si:localuser:root'] 
+2021-11-10 19:16:06,801 - mininet - Level 25 - <Host plc2: plc2-eth0:192.168.1.20 pid=3576> 
 
-2021-10-29 02:02:56,549 - mininet - DEBUG - localuser:root being added to access control list
-  0
-2021-10-29 02:02:56,552 - mininet - DEBUG - _popen ['mnexec', '-da', '5890', 'xterm', '-title', '"Node: s1" (root)', '-display', ':0', '-e', 'env TERM=ansi bash'] 6102
-2021-10-29 02:04:35,117 - mininet - Level 25 - 
+2021-11-10 19:16:06,801 - mininet - Level 25 - <Host plc3: plc3-eth0:192.168.1.30 pid=3578> 
+
+2021-11-10 19:16:06,802 - mininet - Level 25 - <Host plc4: plc4-eth0:192.168.1.40 pid=3580> 
+
+2021-11-10 19:16:06,802 - mininet - Level 25 - <Host plc5: plc5-eth0:192.168.1.50 pid=3582> 
+
+2021-11-10 19:16:06,802 - mininet - Level 25 - <Host plc6: plc6-eth0:192.168.1.60 pid=3584> 
+
+2021-11-10 19:16:06,803 - mininet - Level 25 - <OVSSwitch s1: lo:127.0.0.1,s1-eth1:None,s1-eth2:None,s1-eth3:None,s1-eth4:None,s1-eth5:None,s1-eth6:None pid=3589> 
+
+2021-11-10 19:16:06,803 - mininet - Level 25 - <Controller c0: 127.0.0.1:6653 pid=3567> 
+
+2021-11-10 19:17:28,515 - mininet - DEBUG - *** errRun: ['stty', '-icanon', 'min', '1'] 
+
+2021-11-10 19:17:28,523 - mininet - DEBUG -   0
+2021-11-10 19:17:30,259 - mininet - Level 25 - QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+
+2021-11-10 19:19:16,105 - mininet - Level 25 - 
+2021-11-10 19:19:17,685 - mininet - Level 25 - 
 

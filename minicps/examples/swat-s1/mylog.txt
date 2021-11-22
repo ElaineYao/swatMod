@@ -1,0 +1,45 @@
+DEBUG get_query: SELECT value FROM swat_s1 WHERE name = ? AND pid = ?
+DEBUG set_query: UPDATE swat_s1 SET value = ? WHERE name = ? AND pid = ?
+DEBUG ModbusProtocol server addr:  192.168.1.20
+DEBUG: concatenating server address with default port.
+DEBUG: generating server_cmd_path: /usr/bin/python3 /home/swap/minicps/minicps/pymodbus/servers.py 
+DEBUG modbus _start_server cmd:  ['/usr/bin/python3', '/home/swap/minicps/minicps/pymodbus/servers.py', '-i', '192.168.1.20', '-p', '502', '-m', '1', '-d', '10', '-c', '10', '-r', '10', '-R', '10']
+DEBUG: swat-s1 plc2 enters pre_loop
+
+DEBUG: swat-s1 plc2 enters main_loop.
+
+DEBUG PLC2 - get fit201: 0.000000
+('DEBUG PLC2 - send fit201: ', 0)
+DEBUG modbus_receive cmd shlex list:  ['/usr/bin/python3', '/home/swap/minicps/minicps/pymodbus/synch-client.py', '-i', '192.168.1.20', '-p', '502', '-m', 'r', '-t', 'HR', '-o', '0', '--count', '1']
+DEBUG modbus _receive raw_out:  (b'[0]\n', None)
+('DEBUG PLC2 - receive fit201: ', 0)
+DEBUG PLC2 - get fit201: 0.000000
+('DEBUG PLC2 - send fit201: ', 0)
+DEBUG modbus_receive cmd shlex list:  ['/usr/bin/python3', '/home/swap/minicps/minicps/pymodbus/synch-client.py', '-i', '192.168.1.20', '-p', '502', '-m', 'r', '-t', 'HR', '-o', '0', '--count', '1']
+DEBUG modbus _receive raw_out:  (b'[0]\n', None)
+('DEBUG PLC2 - receive fit201: ', 0)
+DEBUG PLC2 - get fit201: 0.000000
+('DEBUG PLC2 - send fit201: ', 0)
+DEBUG modbus_receive cmd shlex list:  ['/usr/bin/python3', '/home/swap/minicps/minicps/pymodbus/synch-client.py', '-i', '192.168.1.20', '-p', '502', '-m', 'r', '-t', 'HR', '-o', '0', '--count', '1']
+DEBUG modbus _receive raw_out:  (b'[0]\n', None)
+('DEBUG PLC2 - receive fit201: ', 0)
+DEBUG PLC2 - get fit201: 0.000000
+('DEBUG PLC2 - send fit201: ', 0)
+DEBUG modbus_receive cmd shlex list:  ['/usr/bin/python3', '/home/swap/minicps/minicps/pymodbus/synch-client.py', '-i', '192.168.1.20', '-p', '502', '-m', 'r', '-t', 'HR', '-o', '0', '--count', '1']
+DEBUG modbus _receive raw_out:  (b'[0]\n', None)
+('DEBUG PLC2 - receive fit201: ', 0)
+DEBUG PLC2 - get fit201: 0.000000
+('DEBUG PLC2 - send fit201: ', 0)
+DEBUG modbus_receive cmd shlex list:  ['/usr/bin/python3', '/home/swap/minicps/minicps/pymodbus/synch-client.py', '-i', '192.168.1.20', '-p', '502', '-m', 'r', '-t', 'HR', '-o', '0', '--count', '1']
+DEBUG modbus _receive raw_out:  (b'[0]\n', None)
+('DEBUG PLC2 - receive fit201: ', 0)
+DEBUG PLC2 - get fit201: 0.000000
+('DEBUG PLC2 - send fit201: ', 0)
+DEBUG modbus_receive cmd shlex list:  ['/usr/bin/python3', '/home/swap/minicps/minicps/pymodbus/synch-client.py', '-i', '192.168.1.20', '-p', '502', '-m', 'r', '-t', 'HR', '-o', '0', '--count', '1']
+DEBUG modbus _receive raw_out:  (b'[0]\n', None)
+('DEBUG PLC2 - receive fit201: ', 0)
+DEBUG PLC2 - get fit201: 0.000000
+('DEBUG PLC2 - send fit201: ', 0)
+DEBUG modbus_receive cmd shlex list:  ['/usr/bin/python3', '/home/swap/minicps/minicps/pymodbus/synch-client.py', '-i', '192.168.1.20', '-p', '502', '-m', 'r', '-t', 'HR', '-o', '0', '--count', '1']
+DEBUG modbus _receive raw_out:  (b'[0]\n', None)
+('DEBUG PLC2 - receive fit201: ', 0)
